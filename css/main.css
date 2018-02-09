@@ -97,29 +97,30 @@ li a:hover{
     margin-bottom: 31px; /*定义外补白*/
 }
 #slide_box{
-
-    height:650px;
+    height:640px;
     left: 50%;
     border: 0px;
-    margin: 70px;
-    padding: 0px;
-    top: 100px;
+    margin: 75px;
+    padding: 30px;
     overflow: hidden; 
 }
 .slide_pic{
+    padding: 10px;
+    background: #363030;
+    border-radius: 20px;
     width: 100%;
     height:100%;
+    overflow: hidden; 
 }
 .slide_pic img{
-    width:70%;
+    width:100%;
     height: 100%;
-    margin: 45px auto;
     overflow: hidden; 
 }
 .slide_pic li{
     position: relative;
     left: 40%;
-    top: -30%;
+    top: -10%;
     height: 20px;
     list-style: none;
     width: 20px;

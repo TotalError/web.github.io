@@ -1,16 +1,31 @@
-body{
-	background-color: #ccc;
-}
+*{margin: 0px;}
 li{
 	list-style: none;
 }
+body{
+	margin: 0px;
+}
+.pict{
+	position: absolute; 
+	margin:0 auto;
+	background: url("../images/login-bg.jpg")  bottom  repeat-x;
+	height: 100%;
+	z-index: -1; 
+	overflow: hidden;
+}
+#login{
+	position: absolute;
+	top: 20%;
+}
 .login_group{
-	margin: 200px auto;	
+	margin-left: 80%;
     width: 400px;
+    border-left: 100px;
  	padding: 30px 50px;
     background: #FFFFFF;
-    overflow: hidden;
+   	overflow: hidden;
     font-size: 14px;
+
 }
 .login_group .logo{
 	width:100%;
