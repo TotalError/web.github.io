@@ -1,0 +1,155 @@
+*{ margin:0px;}
+
+.head{
+	padding-right: 60px;
+	height:61px;
+	line-height:61px;
+	text-align:center;
+	margin-right:0px;
+	color:#FFF;
+	font-family:"微软雅黑"
+	}
+.box{float:left;}
+.head a:link{ text-decoration:none;}
+.head a:hover{color:#F29321; }
+.header{
+	position:fixed;
+	width:1290px;
+	height:100px;
+	}
+#triangle{
+	position:absolute;
+	left:285px;
+	top:40px;
+	border:10px solid transparent;
+	border-bottom-color:#ff0000;
+	width:2px;  
+  	display:block;
+	}
+.transparent{
+	position: absolute;
+	background-color: #666;
+	width: 1287px;
+	height: 100px;
+	opacity: 0.3;
+	z-index: -1;
+	left: 2px;
+	top: 0px;
+	}
+.generation{
+	position: absolute;
+	width: 395px;
+	height: 470px;
+	left: 113px;
+	top: 160px;
+	z-index:-1;
+	}
+.bg-blur {
+	position:absolute;
+	width:100%;
+	height:100%;
+	-webkit-filter: blur(8px);
+	-moz-filter: blur(8px);
+	-o-filter: blur(8px);
+	-ms-filter: blur(8px);
+	filter: blur(8px);
+	z-index:-1;
+	
+}
+#content—ele{
+	position: absolute;
+	left: 300px;
+	top: 1600px;
+	width: 670px;
+	color: #FFF;
+	font-family: "微软雅黑";
+	height: 749px;
+	display:block;
+	z-index:-1;
+	}
+#NFC{
+	position: absolute;
+	left: 300px;
+	top: 1600px;
+	width: 670px;
+	color: #FFF;
+	font-family: "微软雅黑";
+	height: 749px;
+	display:none;
+	z-index:-1;
+	}
+#part_ele{
+	position: absolute;
+	left: 300px;
+	top: 1600px;
+	width: 670px;
+	color: #FFF;
+	font-family: "微软雅黑";
+	height: 749px;
+	display:none;
+	z-index:-1;
+	}
+#arrow_r{
+	position: absolute;
+	left: 890px;
+	top: 1499px;
+	height: 546px;
+	}
+#arrow_l{
+	position: absolute;
+	left: -57px;
+	top: 1499px;
+	height: 528px;
+	width: 261px;
+	}
+.background_first{
+	height: 700px;
+	}
+.background_two{
+	height: 700px;
+	}
+.social_sharing{
+	position:absolute;
+	top:790px;
+	left:100px;
+	}
+.font{
+	position:absolute;
+	top:850px;
+	left:600px;
+	color:#F29321;
+	font-size:36px;
+	}
+.shop{
+	position: absolute;
+	top: 60px;
+	left: 570px;
+	background-color: #FFFFFF;
+	display: none;
+}
+#shop_style{
+	position: absolute;
+	top: 2100px;
+	width: 1287px;
+}
+.pr_shop_ele{
+	position: absolute;
+	top: 2200px;
+	width: 200px;
+	height: 100px;
+	left: 100px;
+}
+.pr_shop_ele_pt{
+	position: absolute;
+	top: 2200px;
+	width: 200px;
+	height: 100px;
+	left: 400px;
+}
+.pr_shop_nfc{
+	position: absolute;
+	top: 2200px;
+	width: 200px;
+	height: 100px;
+	left: 700px;
+}		
