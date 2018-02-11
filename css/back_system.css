@@ -1,5 +1,5 @@
 *{margin: 0px;padding: 0px;}
-a{text-decoration:none;}
+a{text-decoration:none; color: white;}
 li{
 	margin: 0px;
 	border:0px;
@@ -10,80 +10,109 @@ body{
 	color:#666;
 	font-size:14px;
 	background:#f6f6f6; 
-	overflow:hidden;
+	overflow:auto;
+	width: 1218px;
+	height: 620px;
 }
 header{
 	position: relative;
 	padding: 0px;
 	margin: 0px;
 	width: 100%;
-	height: 100px;
+	height: 10%;
 	background: #008080;
 	z-index: -1;
 }
 .logo{
 	position: absolute;	
-	width: 180px;
+	width: 10%;
 	height: 100%;
 }
 .name{
 	height: 100%;
-	width: 400px;
-	margin-left: 180px;
+	width: 30%;
+	margin-left: 10%;
 	float: left;
-	line-height: 100px;
-	font-size: 36px;
+	line-height: 50px;
+	font-size: 20px;
 	color:white;
 }
 .user{
 	float: right;
-	width: 30%;
+	width: 400px;
 	line-height: 10px;
 }
 .user_li{
-	font-size: 20px;
+	font-size: 16px;
 	margin: 0px;
 	padding: 6px;
 	float: left;
 	list-style: none;
 	color: white;
+	text-align: center;
 }
 .left_menu{
 	float:left;
-	width:300px;
+	width:10%;
 	background:#32323a;
 	height:100%;
 	position:absolute;
-	top:103px;
+	top:12%;
 	left:0;
-	overflow:auto;
 	border-left:5px solid #f6f6f6;
 }
 .menua_li{
-	width: 300px;
+	width: 100%;
 	height: 100%;
-	overflow: hidden;
+	overflow: scroll hidden;
 }
 .list-item a{
-	width:230px;
-	padding-left:110px;
+	width:100%;
+	padding-top:10px;
+	padding-left:25%;
 	text-decoration:none;
-	font-size:14px;
 	color:#f5f5f5;
-	line-height:30px;
-	display:block;
-}
+	line-height:10px;
+	display: block;
+	}
 .list-item { 
 	padding:5px 0px; 
 	position:relative; 
 	zoom:1 ;
 	background:#11b6b6;
-	overflow:hidden;
+	display: none;
 }
-.left_menu ul li {width:300px;}
-.menua_userInformation span{}
-.menua_orginzation span{}
-.menua_project span{}
-.menua_sendInformation span{}
-.menua_Attendance span{}
-.menua_personnelManagement span{}
+.left_menu ul li {width:100%;}
+#menua_userInformation span{}
+#menua_orginzation span{}
+#menua_project span{}
+#menua_sendInformation span{}
+#menua_Attendance span{}
+#menua_personnelManagement span{}
+#menua_userInformation{text-align: center; margin-top: 5%;font-size: 16px;}
+#menua_orginzation{text-align: center; margin-top: 50px;font-size:16px;}
+#menua_project{text-align: center; margin-top: 50px;font-size: 16px;}
+#menua_sendInformation{text-align: center; margin-top:50px;font-size: 16px;}
+#menua_Attendance{text-align: center; margin-top:50px;font-size:16px;}
+#menua_personnelManagement{text-align: center; margin-top:50px;font-size: 16px;}
+.date{
+	float: right;
+	width: 100%;
+	height: 50px;
+	line-height: 15px;
+}
+th{border: 2px solid #aaa;}
+td{border: 2px solid #aaa; overflow: hidden;}
+table{margin-left: 20%;width: 60%;background: pink;font-size: 20px;border-collapse: collapse;height: auto;}
+tr{background: white;}
+.td{
+	border: 2px solid #aaa; overflow: hidden; height:30px; 
+}
+#date{
+	text-align: center;
+	margin-top: 2px;
+	margin-left:90%;
+	width: 100px;
+	height: 35px;
+	background: pink;
+}
