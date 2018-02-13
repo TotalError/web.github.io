@@ -51,10 +51,21 @@ body{
 	margin-top: 10px;
 }	
 .login_group .login_form .input_verify{
+	width: 170px;
 	padding: 2px 8px;
 	border:1px solid #dedede;
 	border-radius: 8px;
-	margin-top: 10px;
+	margin: 10px 0px 0px 0px;
+}
+.verify{
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	padding: 2px 8px;
+	border:1px solid #dedede;
+	top:195px;
+	left:670px;
+	background: #ccc;
 }
 .login_group .input_finish{
 	text-align: center;
@@ -68,12 +79,12 @@ body{
     font-size: 16px;
     border: none;
     border-radius: 5px;
-}
+} 
 .login_group .login_form .login_input{
 	height: 35px;
     border: none;
     line-height: 35px;
-    width: 200px;
+    width: 100px;
     font-size: 14px;
     outline: none;
 }

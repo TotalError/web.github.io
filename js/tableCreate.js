@@ -6,7 +6,7 @@ window.onload = function(){
 		var table = document.getElementById('tab_body');
 		for(var i=0;i<8;i++){
 			var tr = document.createElement('tr');
-			for(var j=0;j<8;j++){
+			for(var j=0;j<6;j++){
 			var td = document.createElement('td');
 			td.className += "td";
 			tr.appendChild(td);	
@@ -14,7 +14,7 @@ window.onload = function(){
 			table.appendChild(tr);
 		}
 		
-
+		
 }
 		function startTime()
 		{ 
@@ -29,17 +29,19 @@ window.onload = function(){
 		s=checkTime(s)
 		document.getElementById('date').innerHTML=y+"年"+month+"月"+h+":"+m+":"+s
 		t=setTimeout('startTime()',500)
+		 document.getElementById('date').onmouseout=function(){stopTime();}
 		}
-	
 		function checkTime(i)
 		{
 		if (i<10) 
 		  {i="0" + i}
 		  return i
-		}	
+		}
+	 	function stopTime(){
+	 		clearTimeout(t);
+	 		document.getElementById('date').innerHTML= "移动鼠标到这里查看时间";
 
-
-
+	 	}
 
 
 

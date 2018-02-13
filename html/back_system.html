@@ -16,8 +16,6 @@
 		<div class="user">
 			<ul>
 			 	<li class="user_li">欢迎您！</li>
-				<li class="user_li"><a href="">某某某</a></li>
-				<li class="user_li"><a href="">修改密码</a></li>
 				<li class="user_li"><a href="">设置</a></li>
 				<li class="user_li"><a href="">退出</a></li>
 			</ul>
@@ -87,10 +85,25 @@
 				</nav>
 					
 			</div>
-				<div id="date" onmousemove="startTime()">
+				<div id="date" onmouseover="startTime();">
 					移动鼠标到这里查看时间
 				</div>
 					<div>
+					<select style="height: 20px;width: 100px; margin-left: 500px;">
+							<option>姓名</option>
+							<option>学号</option>
+							<option>部门</option>
+							<option>职位</option>
+							<option>手机号码</option>
+							<option>邮箱</option>
+								<form>
+									<input type="text" name="">
+									<input type="button" name="" value="索引">
+								</form>
+						</select>
+						
+
+
 						<table>
 							<thead id="tab_top">
 								<tr>
@@ -98,15 +111,33 @@
 									<th>学号</th>
 									<th>部门</th>
 									<th>职位</th>
-									<th>账号</th>
-									<th>密码</th>
 									<th>手机号码</th>
-									<th>邮箱</th>
+									<th style="width: 200px;">邮箱</th>
+
 								</tr>
 							</thead>
 								<tbody id="tab_body">
 									</tbody>
 						</table> 
+
+					<form style="width: 500px;margin-left: 300px; height:400px;">
+						<input type="text" name="" value="限制200字以内" size="200"> 
+						<input type="button" name="" value="提交">
+				</form>
+						<div class="Message Message--orange">
+						  <div class="Message-icon">
+						    <i class="fa fa-exclamation"></i>
+						  </div>
+						 <div class="Message-body">
+						    <p>This is a simple notification with a brighter color...</p>
+						    <p>If you bring you mouse here you can close it manually.</p>
+						 </div>
+						  <button class="Message-close js-messageClose"><i class="fa fa-times"></i></button>
+						</div>
+					
+
+
+
 					</div>						
 						
 </body>
